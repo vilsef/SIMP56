@@ -1,6 +1,7 @@
 # SIMP56 ASSIGNMENT - ANALYZING TWITTER DATA
 # 2022-03-08
 
+#load libraries
 library(dplyr)
 library(rtweet)
 library(readxl)
@@ -9,8 +10,6 @@ library(quanteda)
 library(quanteda.textplots)
 library(peRspective)
 
-
-getwd()
 #load tokens
 # usethis::edit_r_environ()
 Sys.setenv(perspective_api_key = "AIzaSyBHWLyxTyojrFpilEILSYjb6FoKZR-XXXXX")
