@@ -31,7 +31,7 @@ klubb_network <- graph_from_data_frame(klubb_links,
 
 1. Is the network directed or undirected? 
 
-Check boolean if network is connected:
+Check boolean if network is directed:
 
 ```{r, echo = FALSE}
 summary(klubb_network)
